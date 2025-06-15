@@ -11,15 +11,17 @@
 
 /*BODY*/
 body{
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
     min-height: 100vh;
     background-color: #333;
 
 }
 /*FIM BODY*/
 
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2%;
+}
 /*HEADER*/
 .header{
     position: fixed;
@@ -160,8 +162,42 @@ body{
     }
 }
 
-/*FIM NAVBAR*/
+section.hero{
+    padding-top: 120px;
+}
 
+
+.img-topo, .txt-topo{
+    display: inline-block;
+    margin-right: -4px;
+    width: 50%;
+    vertical-align: middle;
+}
+
+.img-topo img{
+    width: 100%;
+}
+
+.txt-topo{
+    color: #fff;
+
+}
+
+.txt-topo h1{
+    text-align: center;
+    font-size: 3.5rem;
+    line-height: 60px;
+}
+
+.txt-topo h1 span{
+    display: block;
+}
+
+.txt-topo p{
+    font-size: 1.3rem;
+    margin: 20px 0;
+
+}
 /*FOOTER*/
 
 footer{
@@ -241,7 +277,7 @@ footer .wave{
     left: 0;
     width: 100%;
     height: 100px;
-    background: url(/jonas_portifolio/assets/img/wave.png);
+    background: url(/assets/img/wave.png);
     background-size: 1000px 100px;
 }
 
