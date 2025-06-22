@@ -9,6 +9,12 @@
 }
 /*FIM GERAL*/
 
+/* HTML*/
+html {
+  scroll-behavior: smooth;
+}
+
+/* FIM HTML*/
 /*BODY*/
 body{
     min-height: 100vh;
