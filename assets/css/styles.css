@@ -180,6 +180,7 @@ section.hero{
 
 .txt-topo{
     color: #fff;
+    text-align: center;
 
 }
 
@@ -198,6 +199,55 @@ section.hero{
     margin: 20px 0;
 
 }
+
+
+/*SESSÃO HABILIDADES*/
+section.skills{
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+.skills .titulo-sessao{ 
+    text-align: center;
+
+}
+
+.skills .titulo-sessao h2{ 
+    color: #3586ff;
+    font-size: 2rem;
+    margin-bottom: 60px;
+
+}
+.skills-container{
+    width: 100%;
+    text-align: center;
+}
+.skills .skills-box{
+    display: inline-block;
+    width: 22%;
+    text-align: center;
+    border: 2px solid #3586ff;
+    padding: 100px 4%;
+    border-radius: 0 70px 30px 70px;
+    margin: 0 1%;
+    box-shadow: 10px 10px 0 #3586ff;
+}
+
+.skills .skills-box img{
+    width: 70%;
+}
+
+.skills .skills-box h3{
+    color: #3586ff;
+    font-size: 1.4rem;
+    margin: 15px 0;
+}
+
+.skills .skills-box p{
+    font-size: 14px;
+
+}
+
 /*FOOTER*/
 
 footer{
