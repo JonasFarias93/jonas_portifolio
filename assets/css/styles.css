@@ -162,7 +162,7 @@ body{
     }
 }
 
-/*SESSAO HERO*/
+/*SECAO HERO*/
 section.hero{
     padding-top: 120px;
 }
@@ -181,7 +181,7 @@ section.hero{
 
 .txt-topo{
     color: #fff;
-    text-align: center;
+    text-align: justify;
 
 }
 
@@ -200,7 +200,7 @@ section.hero{
     margin: 20px 0;
 
 }
-/*FIM SESSAO HERO*/
+/*FIM SECAO HERO*/
 
 /*SESSÃO HABILIDADES*/
 section.skills{
@@ -208,12 +208,12 @@ section.skills{
     background-color: #fff;
 }
 
-.skills .titulo-sessao{ 
+.skills .titulo-secao{ 
     text-align: center;
 
 }
 
-.skills .titulo-sessao h2{ 
+.skills .titulo-secao h2{ 
     color: #3586ff;
     font-size: 2rem;
     margin-bottom: 60px;
@@ -249,7 +249,7 @@ section.skills{
 
 }
 
-/* FIM SESSÃO HABILIDADES*/
+/* FIM SECAO HABILIDADES*/
 
 /*SESSÃO PROJETOS*/
 section.meus-projetos{
@@ -307,8 +307,8 @@ section.meus-projetos{
 }
 
 
-/*FIM SESSÃO PROJETOS*/
-/*SESSÃO SOBRE*/
+/*FIM SECAO PROJETOS*/
+/*SECAO SOBRE*/
 
 
 section.sobre-mim{
@@ -366,7 +366,7 @@ section.sobre-mim{
 
 
 
-/* FIM SESSÃO SOBRE*/
+/* FIM SECAO SOBRE*/
 /*FOOTER*/
 
 footer{
