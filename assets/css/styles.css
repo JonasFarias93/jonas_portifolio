@@ -162,6 +162,7 @@ body{
     }
 }
 
+/*SECAO HERO*/
 section.hero{
     padding-top: 120px;
 }
@@ -180,7 +181,7 @@ section.hero{
 
 .txt-topo{
     color: #fff;
-    text-align: center;
+    text-align: justify;
 
 }
 
@@ -199,7 +200,7 @@ section.hero{
     margin: 20px 0;
 
 }
-
+/*FIM SECAO HERO*/
 
 /*SESSÃO HABILIDADES*/
 section.skills{
@@ -207,12 +208,12 @@ section.skills{
     background-color: #fff;
 }
 
-.skills .titulo-sessao{ 
+.skills .titulo-secao{ 
     text-align: center;
 
 }
 
-.skills .titulo-sessao h2{ 
+.skills .titulo-secao h2{ 
     color: #3586ff;
     font-size: 2rem;
     margin-bottom: 60px;
@@ -248,7 +249,7 @@ section.skills{
 
 }
 
-/* FIM SESSÃO HABILIDADES*/
+/* FIM SECAO HABILIDADES*/
 
 /*SESSÃO PROJETOS*/
 section.meus-projetos{
@@ -306,8 +307,66 @@ section.meus-projetos{
 }
 
 
-/*FIM SESSÃO PROJETOS*/
+/*FIM SECAO PROJETOS*/
+/*SECAO SOBRE*/
 
+
+section.sobre-mim{
+    height: 900px;
+    background-color: #fff;
+    padding: 80px 0;
+
+}
+
+.img-sobre, .txt-sobre{
+    display: inline-block;
+    margin-right: -4px;
+    vertical-align: middle;
+    width: 50%;
+}
+.sobre-mim .img-sobre img{
+    width: 70%;
+    border-radius: 0 70px 30px 70px;
+    box-shadow: 10px 10px  0 #3586ff;
+}
+
+.txt-sobre{
+    color: #3586ff;
+}
+
+.txt-sobre h2{
+    font-size: 6rem;
+    line-height: 80px;
+
+}
+
+.txt-sobre h2 span{
+    display: block;
+}
+
+.txt-sobre p{
+    margin: 40px 0 20px 0;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 40px;
+}
+
+.txt-sobre button{
+    background-color: #3586ff;
+    color: #fff;
+    width: 70px;
+    height: 70px;
+    font-size: 28px;
+    border-radius: 0 20px 0 20px;
+    border: none;
+    margin: 5px;
+}
+
+
+
+
+
+/* FIM SECAO SOBRE*/
 /*FOOTER*/
 
 footer{
