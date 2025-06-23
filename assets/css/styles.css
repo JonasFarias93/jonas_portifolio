@@ -314,6 +314,7 @@ section.meus-projetos{
 
 
 /*FIM SECAO PROJETOS*/
+
 /*SECAO SOBRE*/
 
 
@@ -341,6 +342,7 @@ section.sobre-mim{
 }
 
 .txt-sobre h2{
+    text-align: center;
     font-size: 6rem;
     line-height: 80px;
 
@@ -357,17 +359,71 @@ section.sobre-mim{
     line-height: 40px;
 }
 
-.txt-sobre button{
+
+
+.btn-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #3586ff;
     color: #fff;
     width: 70px;
     height: 70px;
-    font-size: 28px;
     border-radius: 0 20px 0 20px;
-    border: none;
+    overflow: hidden;
     margin: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
 }
 
+
+.social-icon:hover {
+    width: 200px; 
+}
+
+
+.social-icon .bi{
+    font-size: 30px;
+    line-height: 1;
+    transition: margin-left 0.3s ease-in-out;
+}
+
+.social-icon span{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 0;  /*<- REMOVI A MARGIN E ADICIONEI SOMENTE APOS O HOVER*/
+    opacity: 0;
+    width: 0;
+    transition: margin-left 0.3s ease-in-out, opacity 0.3s ease-in-out, width 0.3s ease-in-out;
+    white-space: nowrap;
+}
+
+
+.social-icon:hover span {
+    margin-left: 10px; /* adicinei somente aqui*/
+    opacity: 1;
+    width: auto;
+}
+
+.social-icon.instagram-btn:hover { background-color: #E1306C; }
+.social-icon.instagram-btn:hover .bi-instagram { color: #fff; }
+
+.social-icon.youtube-btn:hover { background-color: #ff0000; }
+.social-icon.youtube-btn:hover .bi-youtube { color: #fff; }
+
+.social-icon.linkedin-btn:hover { background-color: #0A66C2; }
+.social-icon.linkedin-btn:hover .bi-linkedin { color: #fff; }
+
+.social-icon.github-btn:hover { background-color: #181717; }
+.social-icon.github-btn:hover .bi-github { color: #fff; }
 
 
 
