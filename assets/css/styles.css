@@ -369,9 +369,6 @@ section.sobre-mim{
     margin-top: 20px;
 }
 .social-icon{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: #3586ff;
     color: #fff;
     width: 70px;
@@ -380,37 +377,52 @@ section.sobre-mim{
     overflow: hidden;
     margin: 5px;
     cursor: pointer;
-    transition: all 0.3s ease-in-out;
     text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
 }
 
+.social-icon .icon-wrapper {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    height: 100%; 
+    width: 70px;
+    flex-shrink: 0; 
+    border-radius: 50%; 
+    box-sizing: border-box;
+    transition: 0.3s ease-in-out;
+}
 
 .social-icon:hover {
     width: 200px; 
 }
 
 
-.social-icon .bi{
+.social-icon .icon-wrapper .bi{
     font-size: 30px;
     line-height: 1;
+    color: #fff;
     transition: margin-left 0.3s ease-in-out;
 }
 
 .social-icon span{
     font-size: 20px;
     font-weight: 500;
-    margin-left: 0;  /*<- REMOVI A MARGIN E ADICIONEI SOMENTE APOS O HOVER*/
+    margin-left: 10px;
     opacity: 0;
     width: 0;
-    transition: margin-left 0.3s ease-in-out, opacity 0.3s ease-in-out, width 0.3s ease-in-out;
+    overflow: hidden;
     white-space: nowrap;
+    transition: margin-left 0.3s ease-in-out, opacity 0.3s ease-in-out, width 0.3s ease-in-out;
 }
 
 
 .social-icon:hover span {
-    margin-left: 10px; /* adicinei somente aqui*/
     opacity: 1;
     width: auto;
+    margin-left: 10px; /* adicinei somente aqui*/
 }
 
 .social-icon.instagram-btn:hover { background-color: #E1306C; }
