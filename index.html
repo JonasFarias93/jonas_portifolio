@@ -1,192 +1,150 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jonas Farias</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-    <link rel="shortcut icon" href="assets/img/letra-j.png" type="image/x-icon">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Portfólio de Jonas Farias — Engenharia de Software, Python/Django, automação e projetos." />
+  <title>Jonas Farias — Portfólio</title>
 
-
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
+
 <body>
-    
-    <!-- Header -->
-    <header class="header">
-        <!--Logo-->
-        <a href="#" class="logo"> Jonas Farias</a>
-        <input type="checkbox" id="check">
-        <!--Icones Logo-->
-        <label for="check" class="icons">
-            <i class='bx bx-menu' id="menu-icon"></i>
-            <i class='bx bx-x' id="close-icon"></i>
-        </label>
-        <!--Fim Icones Logo-->
+  <header class="container header">
+    <div class="header__left">
+      <div class="kicker">Engenharia de Software • Python & Django</div>
+      <h1>Jonas Farias</h1>
+      <p class="subtitle">
+        Construo sistemas com foco em domínio, organização e rastreabilidade.
+        Aqui estão meus projetos principais (backend, frontend e games).
+      </p>
 
-        <!--Navbar-->
-        <nav class="navbar">
-            <a href="#inicio" style="--i:0">Inicio</a>
-            <a href="#sobre" style="--i:1">Sobre</a>
-            <a href="#projetos" style="--i:2">Projetos</a>
-            <a href="#skills" style="--i:3">Tecnologias</a>
-            <a href="#" style="--i:4">Blog</a>
-            <a href="#" style="--i:5">Contato</a>
-        </nav>
-        <!--Fim Navbar-->
-    </header>
-    <!--Fim Header-->
+      <div class="actions">
+        <a class="btn btn--primary" href="#projetos">Ver projetos</a>
+        <a class="btn btn--ghost" href="https://github.com/JonasFarias93" target="_blank" rel="noreferrer">GitHub</a>
+        <a class="btn btn--ghost" href="https://www.linkedin.com/in/jonas-farias/" target="_blank" rel="noreferrer">LinkedIn</a>
+      </div>
+    </div>
 
-    <main>
-        <section class="hero" id="inicio">
-            <div class="interface">
-                <article class="img-topo">
-                    <img class="robo-jones" src="assets/img/robo-jones.png" alt="">
-                </article>
-
-                <article class="txt-topo">
-                    <h1>Transformando ideias em Experiências digitais</h1>
-                    <p>Como desenvolvedor Full-Stack, meu objetivo é transformar ideias criativas em experiências digitais incríveis.<br>
-                        Aqui você vai conhecer um pouco mais sobre mim e explorar os projetos que estou construindo, um pixel por vez!</p>
-                </article>
-            </div>
-
-        </section>
-        <section class="skills" id="skills">
-            <div class="interface">
-                <div class="titulo-secao">
-                    <h2>Minhas Habilidades</h2>
-                </div>
-                <article class="skills-container">
-                    <div class="skills-box">
-                        <img src="assets/img/the-moon.svg" alt="">
-                        <h3>Webesite</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                            Voluptate voluptas placeat asperiores blanditiis,</p>
-                    </div>
-                    <div class="skills-box">
-                        <img src="assets/img/the-moon.svg" alt="">
-                        <h3>Webesite</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                            Voluptate voluptas placeat asperiores blanditiis,</p>
-                    </div>
-                    <div class="skills-box">
-                        <img src="assets/img/the-moon.svg" alt="">
-                        <h3>Webesite</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                            Voluptate voluptas placeat asperiores blanditiis,</p>
-                    </div>
-                    <div class="skills-box">
-                        <img src="assets/img/the-moon.svg" alt="">
-                        <h3>Webesite</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                            Voluptate voluptas placeat asperiores blanditiis,</p>
-                    </div>
-                </article>
-            </div>
-        </section>
-        <section class="meus-projetos" id="projetos">
-            <div class="interface">
-                <article class="txt-projetos">
-                    <h2>Meus <span>Projetos</span></h2>
-                    <p>Veja alguns dos meus projetos mais recentes.</p>
-                </article>
-
-                <article class="projetos-container">
-                    <div class="projetos-content">
-                        <div class="projetos-box">
-
-                        </div>
-                        <h3>Projeto 1</h3>
-                    </div>
-                    <div class="projetos-content">
-                        <div class="projetos-box">
-
-                        </div>
-                        <h3>Projeto 2</h3>
-                    </div>
-                    <div class="projetos-content">
-                        <div class="projetos-box">
-
-                        </div>
-                        <h3>Projeto 3</h3>
-                    </div>
-                    <div class="projetos-content">
-                        <div class="projetos-box">
-
-                        </div>
-                        <h3>Projeto 4</h3>
-                    </div>
-                    <div class="projetos-content">
-                        <div class="projetos-box">
-
-                        </div>
-                        <h3>Projeto 5</h3>
-                    </div>
-                </article>
-            </div>
-        </section>
-        <section class="sobre-mim" id="sobre">
-            <div class="interface">
-                <article class="img-sobre">
-                    <img src="assets/img/dev-jonas.jpg" alt="">
-                </article>
-                <article class="txt-sobre">
-                    <h2>Muito <span>Prazer!</span></h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, odit omnis iste dolor eos, 
-                        necessitatibus corrupti sint sunt laboriosam obcaecati 
-                        nemo ad tenetur ipsa atque consectetur architecto fugiat reiciendis dignissimos.</p>
-                        <div class="btn-social">
-                            <a href="#" class="social-icon instagram-btn">
-                                <div class="icon-wrapper"><i class="bi bi-instagram"></i></div>
-                                <span>Instagram</span></a>
-                            <a href="#" class="social-icon youtube-btn">
-                                <div class="icon-wrapper"><i class="bi bi-youtube"></i></div>
-                                <span>YouTube</span></a>
-                            <a href="#" class="social-icon linkedin-btn">
-                                <div class="icon-wrapper"><i class="bi bi-linkedin"></i></div>
-                                <span>Linkedin</span></a>
-                            <a href="#" class="social-icon github-btn">
-                                <div class="icon-wrapper"><i class="bi bi-github"></i></div>
-                                <span>GitHub</span></a>
-                        </div>
-                </article>
-            </div>
-        </section>
-    </main>
-
-
-    <!--Inicio Footer-->
-    <footer>
-        <!--Waves-->
-        <div class="waves">
-            <div class="wave" id="wave1"> </div>
-            <div class="wave" id="wave2"> </div>
-            <div class="wave" id="wave3"> </div>
-            <div class="wave" id="wave4"> </div>
+    <div class="header__right">
+      <div class="card highlight">
+        <div class="card__tag">Destaque</div>
+        <h2>expansao360</h2>
+        <p>
+          Sistema de gestão operacional para organizar processos de expansão, controle de ativos
+          e acompanhamento de entregas.
+        </p>
+        <div class="chips">
+          <span class="chip">Backend</span>
+          <span class="chip">Python</span>
+          <span class="chip">Django</span>
+          <span class="chip">Arquitetura</span>
         </div>
-        <!--Fim Wave-->
-        
-        <!--Social Icons-->
-        <ul class="social_icons">
-            <li> <a href="#"> <i class='bx bxl-instagram'> </i> </a> </li>
-            <li> <a href="#"> <i class='bx bxl-linkedin'> </i> </a> </li>
-            <li> <a href="#"> <i class='bx bxl-youtube'> </i> </a> </li>
-            <li> <a href="#"> <i class='bx bxl-github'></i> </a> </li>
-        </ul>
-        <ul class="menu_footer">
-            <li> <a href="#"> Inicio </a> </li>
-            <li> <a href="#"> Sobre </a> </li>
-            <li> <a href="#"> Projetos </a> </li>
-            <li> <a href="#"> Tecnologias </a> </li>
-            <li> <a href="#"> Blog </a> </li>
-            <li> <a href="#"> Contato </a> </li>
-        </ul>
-        <p>© 2025 Jonas Farias | Todos os direitos reservados.</p>
-    </footer>
-    <!--Fim Footer-->
+        <div class="card__actions">
+          <a class="link" href="https://github.com/JonasFarias93/expansao360" target="_blank" rel="noreferrer">Ver no GitHub →</a>
+        </div>
+      </div>
+    </div>
+  </header>
 
+  <main class="container">
+    <section id="projetos" class="section">
+      <div class="section__head">
+        <h2>Projetos</h2>
+        <p class="muted">Filtre por tipo e veja os repositórios no GitHub.</p>
+      </div>
 
+      <div class="filters" role="tablist" aria-label="Filtros de projetos">
+        <button class="filter is-active" data-filter="all">Todos</button>
+        <button class="filter" data-filter="backend">Backend</button>
+        <button class="filter" data-filter="frontend">Frontend</button>
+        <button class="filter" data-filter="game">Games</button>
+      </div>
+
+      <div id="projectsGrid" class="grid">
+        <!-- Cards gerados pelo JS -->
+      </div>
+    </section>
+
+    <section id="sobre" class="section">
+      <div class="section__head">
+        <h2>Sobre</h2>
+      </div>
+      <div class="prose">
+        <p>
+          Atuo com foco em backend e arquitetura, principalmente com Python e Django.
+          Tenho experiência prática em ambientes produtivos e gosto de construir software sustentável:
+          testável, evolutivo e com documentação objetiva.
+        </p>
+      </div>
+    </section>
+
+    <section id="contato" class="section">
+      <div class="section__head">
+        <h2>Contato</h2>
+        <p class="muted">Vamos conversar sobre projetos e oportunidades.</p>
+      </div>
+
+      <div class="contact">
+        <a class="btn btn--primary" href="mailto:jhonas.jr@hotmail.com">jhonas.jr@hotmail.com</a>
+        <a class="btn btn--ghost" href="https://www.linkedin.com/in/jonas-farias/" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a class="btn btn--ghost" href="https://github.com/JonasFarias93" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+
+      <p class="muted small">
+        Domínio: <strong>jonasfg.com.br</strong> (renovação pendente). Enquanto isso, você pode usar GitHub Pages.
+      </p>
+    </section>
+  </main>
+
+<!--Inicio Footer-->
+  <footer class="footer-waves">
+    <!--Waves-->
+    <div class="waves">
+      <div class="wave" id="wave1"></div>
+      <div class="wave" id="wave2"></div>
+      <div class="wave" id="wave3"></div>
+      <div class="wave" id="wave4"></div>
+    </div>
+    <!--Fim Wave-->
+
+    <!--Social Icons-->
+    <ul class="social_icons" aria-label="Redes sociais">
+      <li>
+        <a href="https://instagram.com/eunati.py" target="_blank" rel="noreferrer" aria-label="Instagram">
+          <i class='bx bxl-instagram'></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/jonas-farias/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+          <i class='bx bxl-linkedin'></i>
+        </a>
+      </li>
+      <li>
+        <!-- Se você não usa YouTube, pode remover esse <li> -->
+        <a href="#" aria-label="YouTube">
+          <i class='bx bxl-youtube'></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/JonasFarias93" target="_blank" rel="noreferrer" aria-label="GitHub">
+          <i class='bx bxl-github'></i>
+        </a>
+      </li>
+    </ul>
+
+    <ul class="menu_footer" aria-label="Navegação do rodapé">
+      <li><a href="#topo">Início</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <!-- "Tecnologias" e "Blog" podem virar seção depois; por ora, melhor remover pra não ter link morto -->
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+
+    <p>© <span id="year"></span> Jonas Farias | Todos os direitos reservados.</p>
+  </footer>
+  <!--Fim Footer-->
+
+      <script src="assets/js/app.js"></script>
 </body>
 </html>
